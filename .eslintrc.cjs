@@ -5,13 +5,14 @@ module.exports = {
     node: true,
     'vue/setup-compiler-macros': true
   },
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:vue/vue3-recommended'],
+  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:vue/vue3-recommended','prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: [],
+  plugins: ['prettier'],
   rules: {
+    'prettier/prettier': ['error'],
     'no-unused-vars': 'off', // 取消禁止未使用變數
     '@typescript-eslint/no-unused-vars': 'off',
     'arrow-body-style': 'off', // 關閉箭頭函式一定要 {}
