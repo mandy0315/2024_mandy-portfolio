@@ -1,10 +1,8 @@
 <script setup lang="ts">
-const test = ref('');
+const test = ref('')
 </script>
 <template>
   <div>
     <NuxtWelcome />
   </div>
 </template>
-
-
