@@ -12,4 +12,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 	"editor.formatOnSave": true,
+  // 自動修復 .eslintrc.cjs
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
