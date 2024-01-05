@@ -5,5 +5,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: {
     typeCheck: true
+  },
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/nuxt3-generate/' : '/',
+    buildAssetsDir: '/asset/'
   }
 });
