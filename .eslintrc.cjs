@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     'vue/setup-compiler-macros': true
   },
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:vue/vue3-recommended','prettier'],
+  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:vue/vue3-recommended', 'prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
@@ -26,4 +26,4 @@ module.exports = {
       }
     ] // 類別名稱一定要大寫開頭
   }
-}
+};
