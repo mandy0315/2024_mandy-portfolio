@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="test-lg test">Hello</div>
+  <div class="container">
+    <div class="section home test">ddd</div>
+  </div>
 </template>

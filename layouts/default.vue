@@ -2,9 +2,11 @@
 
 <template>
   <div>
-    <header class="text-xl">header</header>
-    <slot />
-
-    <footer>footer</footer>
+    <AppHeader />
+    <AppPagesSilder />
+    <main>
+      <slot />
+    </main>
+    <AppFooter />
   </div>
 </template>
