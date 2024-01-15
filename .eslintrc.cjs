@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error'],
+    'no-console': 'off',
     'no-unused-vars': 'off', // 取消禁止未使用變數
     '@typescript-eslint/no-unused-vars': 'off',
     'arrow-body-style': 'off', // 關閉箭頭函式一定要 {}
