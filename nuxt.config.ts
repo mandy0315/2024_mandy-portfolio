@@ -4,7 +4,7 @@ import Components from 'unplugin-vue-components/vite';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', 'unplugin-icons/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'unplugin-icons/nuxt', '@pinia/nuxt'],
   vite: {
     plugins: [
       Components({
