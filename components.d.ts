@@ -7,10 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    IconMdiChevronLeft: typeof import('~icons/mdi/chevron-left')['default']
-    IconMdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
     IconMingcuteArrowLeftFill: typeof import('~icons/mingcute/arrow-left-fill')['default']
-    IconMingcuteArrowLefttFill: typeof import('~icons/mingcute/arrow-leftt-fill')['default']
     IconMingcuteArrowRightFill: typeof import('~icons/mingcute/arrow-right-fill')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
