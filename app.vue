@@ -1,10 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useMainStore } from '@/stores';
+const mainStore = useMainStore();
+const pageTransition = computed(() => mainStore.pageTransition);
+</script>
 
 <template>
   <NuxtLayout>
     <NuxtPage
       :transition="{
-        name: 'slide-left',
+        name: pageTransition,
         mode: 'out-in'
       }"
     />
