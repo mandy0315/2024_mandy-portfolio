@@ -1,0 +1,1 @@
+import{_ as o,v as s,L as r,x as e,t as a}from"./entry.i3f5YJGe.js";const c={},n=e("header",{class:"text-xl"},"header",-1),l=e("footer",null,"footer",-1);function _(t,d){return a(),s("div",null,[n,r(t.$slots,"default"),l])}const u=o(c,[["render",_]]);export{u as default};
