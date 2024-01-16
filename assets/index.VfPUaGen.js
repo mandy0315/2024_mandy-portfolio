@@ -1,0 +1,1 @@
+import{d as e,t,v as s,x as o}from"./entry.-5FhdbWF.js";const n={class:"container"},c=o("div",{class:"section home test"},"index",-1),a=[c],m=e({__name:"index",setup(_){return(i,d)=>(t(),s("div",n,a))}});export{m as default};
