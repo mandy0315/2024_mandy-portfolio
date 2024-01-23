@@ -1,0 +1,1 @@
+import{i as o,j as d}from"./entry.rMQ4o9aC.js";const l=o((t,a)=>{const e=d(),i=e.allPaths.indexOf(t.path),n=e.allPaths.indexOf(a.path),s=i>n?"slide-left":"slide-right";e.updatePageTransition(s)});export{l as default};
